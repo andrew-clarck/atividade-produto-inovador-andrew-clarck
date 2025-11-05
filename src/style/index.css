@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background: linear-gradient(rgb(240, 240, 240), rgb(204, 231, 255));
+    background: linear-gradient(white, rgb(204, 231, 255));
 }
 
 footer {
@@ -93,6 +93,13 @@ h1 {
 
 h2 {
     font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 0.8rem;
+    background-color: aliceblue;
+}
+
+section {
+    padding: 1rem;
 }
 
 p {
