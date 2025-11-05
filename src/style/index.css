@@ -63,6 +63,16 @@ nav a {
     text-decoration: none;
     color: green;
     padding: 1rem;
+    text-align: center;
+}
+
+header ul {
+    display: flex;
+    margin: 1rem 3.2rem;
+}
+
+ul {
+    list-style: none;
 }
 
 main > section {
@@ -90,6 +100,7 @@ a:hover, button:hover {
 
 h1 {
     font-size: 3rem;
+    text-align: center;
 }
 
 h2 {
