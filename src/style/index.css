@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 1.5rem;
+}
+
+header {
+    background: linear-gradient(rgb(240, 240, 240), rgb(204, 231, 255));
+}
+
+footer {
+    margin-top: 3rem;
+    text-align: center;
+    color: gray;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+}
+
+thead {
+    background-color: rgb(237, 234, 234);
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+th {
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+td {
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+}
+
+.botao-comprar {
+    padding: 0.2rem;
+    margin-left: 1rem;
+}
+
+#hero {
+    font-size: 0.8rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: green;
+    padding: 1rem;
+}
+
+main > section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+h2 + p {
+    padding: 0.5rem;
+}
+
+input[type="email"] {
+    margin: 0.3rem;
+    padding: 0.2rem
+}
+
+a:hover, button:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+#hero h2::first-letter {
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+p {
+    line-height: 1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+:hover {
+    transition: all 0.3s ease;
+}
+
+#galeria img{
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem grey
+}
+
+#galeria img:hover {
+    transform: scale(1.05)
+}
+
+button {
+    border-radius: 1rem;
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity: 1;
+}
